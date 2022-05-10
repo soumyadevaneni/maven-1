@@ -6,7 +6,7 @@ public class ReadingdatafromCommandtest {
 
 	@Test(groups="smoke")
 	public void ReadingdatafromCommandtest() {
-		System.out.println("executing poll scm");
+		System.out.println(executing poll scm);
 	String URL=	System.getProperty("url");
 	String UN=System.getProperty("username");
 	String PWD=System.getProperty("password");
