@@ -6,8 +6,8 @@ public class ReadingdatafromCommandtest {
 
 	@Test(groups="smoke")
 	public void ReadingdatafromCommandtest() {
-		System.out.println("executing" );
-	String URL=	System.getProperty("url");
+        System.out.println("executing");
+	String URL=System.getProperty("url");
 	String UN=System.getProperty("username");
 	String PWD=System.getProperty("password");
 	System.out.println(URL);
